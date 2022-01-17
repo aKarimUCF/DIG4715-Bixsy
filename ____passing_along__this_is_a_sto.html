@@ -63,8 +63,7 @@ d,0,0,0,c,0,0,0,0,c,0,0,0,c,0,d
 d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d
 NAME Level 1
 ITM 1 8,3
-EXT 8,0 3 7,15 DLG 3
-EXT 8,0 2 7,14
+EXT 8,0 2 7,14 DLG b
 PAL 0
 
 ROOM 1
@@ -85,7 +84,7 @@ e,0,0,0,0,0,0,x,0,0,0,0,0,0,0,e
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
 e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
 NAME House 1
-EXT 7,13 3 7,8
+EXT 7,13 3 7,8 DLG 7
 END 5 7,8
 PAL 3
 
@@ -109,8 +108,8 @@ e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
 NAME Cave
 ITM 1 11,3
 ITM 1 3,7
-EXT 7,1 3 7,15
-EXT 7,14 0 8,0
+EXT 7,1 3 7,15 DLG a
+EXT 7,14 0 8,0 DLG c
 PAL 2
 
 ROOM 3
@@ -132,9 +131,8 @@ d,0,0,0,0,0,0,y,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,x,0,0,d,0,0,0,0,0
 ITM 1 13,9
 ITM 1 4,11
-EXT 7,15 0 8,0 DLG 4
-EXT 7,15 2 7,1
-EXT 7,8 1 7,13
+EXT 7,15 2 7,1 DLG 9
+EXT 7,8 1 7,13 DLG 8
 PAL 0
 
 TIL a
@@ -495,6 +493,30 @@ NAME ending 1
 DLG 6
 The spirits are the key!
 NAME Person dialog
+
+DLG 7
+You've left the Hall of Souls and went to the Courtyard...
+NAME exit narration 3
+
+DLG 8
+You've entered the Hall of Souls...
+NAME exit narration 4
+
+DLG 9
+You've entered the Cave....
+NAME exit narration 5
+
+DLG a
+You've entered the Courtyard....
+NAME exit narration 6
+
+DLG b
+You've entered the Cave....
+NAME exit narration 7
+
+DLG c
+You've entered the Graveyard....
+NAME exit narration 8
 
 VAR a
 42
